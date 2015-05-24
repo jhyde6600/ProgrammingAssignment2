@@ -28,7 +28,7 @@ cacheSolve <- function(x, ...) {
         
         # if the inverse has already been calculated
         if (!is.null(inv)){
-                # get it from the cache and skips the computation. 
+                # get it from cache and skip computation. 
                 message("getting cached data")
                 return(inv)
         }
